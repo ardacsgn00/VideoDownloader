@@ -1,0 +1,16 @@
+# Rust build artifacts
+**/target/
+target/
+
+# WebView2 user data & runtime cache
+*.WebView2/
+**/*.WebView2/
+
+# Heavy binaries (>100MB cannot be pushed to GitHub)
+ffmpeg.exe
+ffprobe.exe
+
+# Operating System files
+Thumbs.db
+Desktop.ini
+.DS_Store
